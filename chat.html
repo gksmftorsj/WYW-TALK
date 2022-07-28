@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/chatstyle.css">
+    <link rel="stylesheet" href="./css/screens/chat.css">
+    <link rel="stylesheet" href="./css/components/no-mobile.css">
+    <link rel="stylesheet" href="./css/components/status-bar.css">
+    <link rel="stylesheet" href="./css/components/badge.css">
+    <link rel="stylesheet" href="./css/components/alt-screen-header.css">
+    <!-- CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+    </style>
+    <script defer src="https://kit.fontawesome.com/13650dff62.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Status-Bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>24:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- Alt Screen Header -->
+    <div class="alt-screen-header">
+        <div class="alt-screen-header__column">
+            <a href="chats.html">
+                <i class="fa-solid fa-angle-left"></i>
+            </a>
+        </div>
+        <div class="alt-screen-header__column">
+            <h1>권모술수 권민우 변호사</h1>
+        </div>
+        <div class="alt-screen-header__column">
+            <i class="fa-solid fa-magnifying-glass chat-header-magnifying-icon"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>    
+
+    <!-- Main Chat Screen -->
+    <div class="chat-screen">
+
+        <!-- 타임스탬프-->
+        <div class="time-stamp">
+            <i class="fa-solid fa-calendar-days"></i>
+            <span>2022년 7월 26일 화요일</span>
+        </div>
+
+        <!-- 민우 -->
+        <div class="message-row">
+            <img src="./css/img/minwoo.jpg">
+            <div class="message-row__content">
+                <span class="message__author">권모술수 권민우 변호사</span>
+                <div class="message__box">
+                    <span class="message__text">
+                        아까 태수미 변호사랑 무슨 얘기 한 거예요?
+                    </span>
+                    <span class="message__time">
+                        오후 7:45
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <!-- 영우 -->
+        <div class="message-row message-row--me">
+            <div class="message-row__content">
+                <div class="message__box">
+                    <span class="message__text">
+                        무슨 얘기 했는지 말해 주면 게시판에 또 올릴 겁니까?
+                    </span>
+                    <span class="message__time">
+                        오후 7:48
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <!-- 민우 -->
+        <div class="message-row">
+            <img src="./css/img/minwoo.jpg">
+            <div class="message-row__content">
+                <span class="message__author">권모술수 권민우 변호사</span>
+                <div class="message__box">
+                    <span class="message__text">
+                        예? 아니 내가 뭐 어쨌다고?
+                    </span>
+                    <span class="message__time">
+                        오전 7:50
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <!-- 영우 -->
+        <div class="message-row message-row--me">
+            <div class="video">
+                <video controls src="./css/video/attack.mp4"></video>
+                <span class="message__time">
+                    오후 7:52
+                </span>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <!-- 민우 -->
+        <div class="message-row">
+            <img src="./css/img/minwoo.jpg">
+            <div class="message-row__content">
+                <span class="message__author">권모술수 권민우 변호사</span>
+                <div class="message__box">
+                    <span class="message__text">
+                        뭐 하는 짓이에요!
+                    </span>
+                    <span class="message__time">
+                        오전 7:53
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <!-- 영우 -->
+        <div class="message-row message-row--me">
+            <div class="message-row__content">
+                <div class="message__box">
+                    <span class="message__text">
+                        한 번만 더 그런 행동을 하면 권민우 변호사의 뒤통수를 때릴 겁니다
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--me">
+            <img class="headshot" src="./css/img/headshot.jpg">
+        </div>
+        <div class="message-row message-row--me">
+            <div class="message-row__content">
+                <div class="message__box">
+                    <span class="message__text">
+                        명치를 세게 칠 수도 있고요
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--me">
+            <img class="punch" src="./css/img/punch.jpg" alt="">
+        </div>
+        <div class="message-row message-row--me">
+            <div class="message-row__content">
+                <div class="message__box">
+                    <span class="message__text">
+                        당하고만 살지 않습니다!
+                    </span>
+                    <span class="message__time">
+                        오후 7:57
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <!-- 민우 -->
+        <div class="message-row">
+            <img src="./css/img/minwoo.jpg">
+            <div class="message-row__content">
+                <span class="message__author">권모술수 권민우 변호사</span>
+                <div class="message__box">
+                    <span class="message__text">
+                        뭐가 그렇게 당당해요, 우 변은?
+                    </span>
+                    <span class="message__time">
+                        오후 8:00
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reply-->
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-solid fa-microphone"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="메세지를 입력하세요.">
+        </div>
+        <div class="reply__column">
+            <i class="fa-solid fa-face-smile-wink"></i>
+            <i class="fa-solid fa-paper-plane"></i>
+        </div>
+    </form>
+
+    <!-- Mobile -->
+    <div id="no-mobile">
+        <div id="no-mobile-item">
+            <img src="./css/img/no-mobile.png" alt="no-mobile-img">
+            <span>화면의 크기를 줄여주십시오.</span>
+        </div>
+    </div>
+</body>
+</html>

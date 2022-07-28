@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/components/nav-bar.css">
+    <link rel="stylesheet" href="./css/components/no-mobile.css">
+    <link rel="stylesheet" href="./css/components/status-bar.css">
+    <link rel="stylesheet" href="./css/components/badge.css">
+    <link rel="stylesheet" href="./css/screens/more.css">
+    <link rel="stylesheet" href="./css/components/screen-header.css">
+    <link rel="stylesheet" href="./css/components/user-component.css">
+    <!-- CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+    </style>
+    <script defer src="https://kit.fontawesome.com/13650dff62.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Status-bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>24:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- Screen Header -->
+    <div class="screen-header">
+        <h1 class="screen-header__title">더보기</h1>
+        <div class="screen-header__icons">
+            <i class="fas fa-search fa-lg" aria-hidden="true"></i>
+            <a href="music.html">
+                <i class="fas fa-music fa-lg"></i>
+                <div class="bell-alert"></div>
+            </a>
+            <a href="setting.html">
+                <i class="fas fa-cog fa-lg"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- More Main Screen-->
+    <main class="more-screen">
+        <!--드라마 정보-->
+        <div class="user-component">
+        <div class="user-component__column">
+            <img class="user-component__img" src="./css/img/more img1.jpg">
+            <div class="user-component__text">
+            <span class="user-component__name">이상한 변호사 우영우</span>
+            <span class="user-component__desc">ENA 채널 밤 9시 방영<br>
+                감독: 유인식 극본: 문지원</span>
+            <span class="user-component__desc"></span>
+            </div>
+        </div>
+        <div class="user-component__column">
+            <i class="fa-solid fa-share-from-square"></i>
+        </div>
+        </div>
+
+        <!--공식홈피, 인스타, 트위터, 페이스북-->
+        <div class="icon-row">
+        <div class="icon-row__icon">
+            <a target="blank" href="http://ena.skylifetv.co.kr/bbs/board.php?bo_table=skydrama&amp;wr_id=113&amp;sca=%EC%B5%9C%EC%8B%A0">
+            <i class="fa-solid fa-house"></i>
+            </a>
+            <span>공식홈</span>
+        </div>
+        <div class="icon-row__icon">
+            <a target="blank" href="https://instagram.com/channel.ena.d">
+            <i class="fa-brands fa-instagram-square"></i>
+            </a>
+            <span>인스타</span>
+        </div>
+        <div class="icon-row__icon">
+            <a target="blank" href="https://twitter.com/officialastory">
+            <i class="fa-brands fa-twitter-square"></i>
+            </a>
+            <span>트위터</span>
+        </div>
+        <div class="icon-row__icon">
+            <a target="blank" href="https://www.facebook.com/channel.ena">
+            <i class="fa-brands fa-facebook-square"></i>
+            </a>
+            <span>페이스북</span>
+        </div>
+        </div>
+
+        <!-- Section-Header -->
+        <div class="section-header">
+            <div class="section-title">
+                <span>다시보기 (Replay)</span>
+            </div>
+        </div>
+
+        <!--다시보기-->
+        <div class="icon-row">
+        <div class="icon-row__icon">
+            <a target="blank" href="https://netflix.com/browse">
+            <img src="./css/img/netflix.png">
+            </a>
+            <span>Netflix</span>
+        </div>
+        <div class="icon-row__icon">
+            <a target="blank" href="https://www.seezntv.com/">
+            <img src="./css/img/seezn.png">
+            </a>
+            <span>seezn</span>
+        </div>
+        <div class="icon-row__icon">
+            <a target="blank" href="https://youtube.com/playlist?list=PLP1FBKYRdPoW24sKzZcjQfrNsTbHZvKfI">
+            <img src="./css/img/youtube.png">
+            </a>
+            <span>Youtube</span>
+        </div>
+        <div class="icon-row__icon">
+            <a target="blank" href="https://tv.naver.com/wooyoungwoo">
+            <img src="./css/img/naver.png">
+            </a>
+            <span>Naver</span>
+        </div>
+        </div>
+
+        <!--광고-->
+        <a href="music.html">
+        <div class="ost">
+            <div class="ost-column">
+            <span class="ost-title">Music 듣기 Click!</span>
+            <span class="ost-desc">우루루루루루루루</span>
+            </div>
+            <div class="ost-column">
+            <img src="./css/img/ena.jpg">
+            </div>
+        </div>
+        </a>
+    </main>
+
+    <!-- Nav-Bar -->
+    <nav class="nav_friend_nav">
+        <ul class="nav_list">
+            <li class="nav_btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav__link" href="chats.html">
+                    <i class="fa-solid fa-comment"></i>
+                    <span class="nav__notification badge">4</span>      
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav__link" href="view.html">
+                    <i class="fa-solid fa-eye"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav__link" href="more.html">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <div class="nav-dot"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Mobile -->
+    <div id="no-mobile">
+        <div id="no-mobile-item">
+            <img src="./css/img/no-mobile.png" alt="no-mobile-img">
+            <span>화면의 크기를 줄여주십시오.</span>
+        </div>
+    </div>
+</body>
+</html>

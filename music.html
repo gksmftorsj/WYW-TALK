@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/components/status-bar.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/components/nav-bar.css">
+    <link rel="stylesheet" href="./css/components/no-mobile.css">
+    <link rel="stylesheet" href="./css/components/alt-screen-header.css">
+    <link rel="stylesheet" href="./css/components/badge.css">
+    <link rel="stylesheet" href="./css/screens/music.css">
+    <!-- CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+    </style>
+    <script defer src="https://kit.fontawesome.com/13650dff62.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Status-bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>24:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- Alt Screen Header -->
+    <div class="alt-screen-header">
+        <div class="alt-screen-header__column">
+            <a href="friends.html">
+                <i class="fa-solid fa-house"></i>
+            </a>
+        </div>
+        <div class="alt-screen-header__column">
+            <h1>뮤직</h1>
+        </div>
+        <div class="alt-screen-header__column">
+            <i class="fa-solid fa-thumbs-up"></i>
+        </div>
+    </div>
+
+    <!-- Main Music Screen -->
+    <main class="music-screen">
+        <div class="component">
+            <video autoplay muted controls src="./css/video/music.mp4"></video>
+            <h2 class="component-name">우루루루루루루루</h2>
+            <h5 class="component-singer">우영우(feat.정명석, 최수연)</h5>
+        </div>
+        <div class="time-bar">
+            <div class="time-number">
+                <span>0:00</span>
+                <span>2:47</span>
+            </div>
+            <div class="time-range">
+                <div class="time-range-current"></div>
+                <div class="time-range-pointer"></div>
+            </div>
+        </div>
+        <div class="control-bar">
+            <i class="fa-solid fa-repeat"></i>
+            <i class="fa-solid fa-backward-step fa-lg"></i>
+            <i class="fa-solid fa-circle-play"></i>
+            <i class="fa-solid fa-forward-step fa-lg"></i>
+            <i class="fa-solid fa-shuffle"></i>
+        </div>
+    </main>
+
+    <!-- Nav-Bar -->
+    <nav class="nav_friend_nav">
+        <ul class="nav_list">
+            <li class="nav_btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav__link" href="chats.html">
+                    <i class="fa-solid fa-comment"></i>
+                    <span class="nav__notification badge">4</span>      
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav__link" href="view.html">
+                    <i class="fa-solid fa-eye"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav__link" href="more.html">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <div class="nav-dot"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Mobile -->
+    <div id="no-mobile">
+        <div id="no-mobile-item">
+            <img src="./css/img/no-mobile.png" alt="no-mobile-img">
+            <span>화면의 크기를 줄여주십시오.</span>
+        </div>
+    </div>
+</body>
+</html>

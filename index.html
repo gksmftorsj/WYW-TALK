@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우영우 Talk</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/components/status-bar.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/screens/login.css">
+    <link rel="stylesheet" href="css/components/no-mobile.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+    </style>
+    <script defer="" src="https://kit.fontawesome.com/13650dff62.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Status-bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>24:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="welcome-header">
+        <h1 class="welcome-header-title">Welcome to 우영우 Talk
+        </h1>
+        <p class="welcome-header-text">
+            If you have a 우영우 Talk Account, log in with your email or phone number.
+        </p>
+    </header>
+
+    <!-- Login -->
+    <form action="friends.html" metho="post" id="login-form">
+        <input class="username" type="text" required placeholder="Email or phone number">
+        <input class="password" type="password" minlength="8" required placeholder="password">
+        <input type="submit" value="log in">
+        <input type="submit" value="sign up">
+        <a href="#">Find 우영우 Talk Account or password</a>
+    </form>
+
+    <!-- Mobile -->
+    <div id="no-mobile">
+        <div id="no-mobile-item">
+            <img src="./css/img/no-mobile.png" alt="no-mobile-img">
+            <span>화면의 크기를 줄여주십시오.</span>
+        </div>
+    </div>
+</body>
+</html>

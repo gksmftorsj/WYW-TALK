@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/components/nav-bar.css">
+    <link rel="stylesheet" href="./css/components/no-mobile.css">
+    <link rel="stylesheet" href="./css/components/status-bar.css">
+    <link rel="stylesheet" href="./css/components/badge.css">
+    <link rel="stylesheet" href="./css/screens/s.css">
+    <link rel="stylesheet" href="./css/components/setting-screen-header.css">
+    <link rel="stylesheet" href="./css/screens/settings.css">
+    <!-- CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+    </style>
+    <script defer src="https://kit.fontawesome.com/13650dff62.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Status-bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>24:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- Alt Screen Header -->
+    <div class="alt-screen-header">
+        <div class="alt-screen-header__column">
+            <a href="friends.html">
+                <i class="fa-solid fa-angle-left"></i>
+            </a>
+        </div>
+        <div class="alt-screen-header__column">
+            <h1>설정</h1>
+        </div>
+        <div class="alt-screen-header__column">
+            <i class="fa-solid fa-magnifying-glass chat-header-magnifying-icon"></i>
+        </div>
+    </div>    
+
+    <!-- Main Screen -->
+    <main class="main-screen">
+        <ul class="setting-list">
+            <li>
+                <div class="setting__column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
+                </div>
+                <div class="setting__column">
+                    <i class="fas fa-flask"></i>
+                    <span>Working Crew Lab</span>
+                </div>
+                <div class="setting__column">
+                    <div class="settings__setting-column">
+                        <div class="settings__setting-column-left">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Version</span>
+                        </div>
+                        <span>Lastest Version</span>
+                    </div>
+                </div>
+                <div class="setting__column">
+                    <i class="fas fa-unlock-alt"></i>
+                    <span>Privacy</span>
+                </div>
+                <div class="setting__column">
+                    <i class="fas fa-bell"></i>
+                    <span>Notifications</span>
+                </div>
+                <div class="setting__column">
+                    <i class="fas fa-user-friends"></i>
+                    <span>Crews</span>
+                </div>
+                <div class="setting__column">
+                    <i class="fas fa-comments"></i>
+                    <span>Chats</span>
+                </div>
+                <div class="setting__column">
+                    <i class="fas fa-sun"></i>
+                    <span>Display</span>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <!-- Nav-Bar -->
+    <nav class="nav_friend_nav">
+        <ul class="nav_list">
+            <li class="nav_btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav__link" href="chats.html">
+                    <i class="fa-solid fa-comment"></i>
+                    <span class="nav__notification badge">4</span>      
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav__link" href="view.html">
+                    <i class="fa-solid fa-eye"></i>
+                </a>
+            </li>
+            <li class="nav_btn">
+                <a class="nav__link" href="more.html">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <div class="nav-dot"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Mobile -->
+    <div id="no-mobile">
+        <div id="no-mobile-item">
+            <img src="./css/img/no-mobile.png" alt="no-mobile-img">
+            <span>화면의 크기를 줄여주십시오.</span>
+        </div>
+    </div>
+</body>
+</html>

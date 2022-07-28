@@ -1,0 +1,124 @@
+.user-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px 15px 30px;
+    padding: 10px 15px;
+    border: 1px solid #4b00f92e;
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.friends-screen .user-component:hover {
+    transform: translateY(5px);
+}
+
+.chats-screen .user-component:hover {
+    transform: translateY(5px);
+}  
+
+.user-component__column:first-child {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.user-component__column:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-component__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.user-component__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-component__name {
+    font-size: 30px;
+
+}
+
+.user-component__des {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.user-component__music {
+    display: flex;
+    font-size: 17px;
+}
+
+.user-component__music__text {
+    margin-right: 10px;
+}
+
+.user-component__music a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-component__name-box {
+    position: relative;
+}
+
+.user-component__favorite {
+    position: absolute;
+    bottom: 5px;
+}
+
+.user-component__time {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.user-component__dsc {
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+/* More-screen */
+
+.more-screen .user-component {
+    margin: 0px 0px 20px 0px;
+    padding: 20px 50px;
+    border-radius: 0;
+    background: linear-gradient(to right, #5d469e, #3a3995, #5d469e);
+    color: white;
+}
+
+.more-screen .user-component__img {
+    width: 105px;
+    height: 150px;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+
+.more-screen .user-component__name {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.more-screen .user-component__desc {
+    font-size: 20px;
+    line-height: 17px;
+    opacity: 0.5;
+}
+
+.more-screen .fa-share-from-square {
+    font-size: 25px;
+    opacity: 0.8;
+    margin-right: 20px;
+}

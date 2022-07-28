@@ -1,0 +1,46 @@
+.alt-screen-header {
+    position: fixed;
+    top: 39px;
+    width: 100%;
+    height: 80px;
+    padding: 20px 30px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #92a6e5;
+}
+
+.alt-screen-header__column:nth-child(1) {
+    width: 30%;
+}
+
+.alt-screen-header__column:nth-child(2) {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.alt-screen-header__column:nth-child(3) {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.alt-screen-header i {
+    font-size: 1.3rem;
+}
+
+.alt-screen-header i:hover {
+    color: #666eb9;
+    transform: scale(1.2);
+}
+
+.alt-screen-header h1 {
+    font-size: 2.1rem;
+}
+
+.fa-magnifying-glass {
+    margin-right: 20px;
+}
